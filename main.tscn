@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cps1j6sjsjspe"]
+
+[ext_resource type="Script" uid="uid://byk2x04ua5ps" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://d0uebf36ca0ur" path="res://grid.gd" id="2_h2yge"]
+[ext_resource type="Script" uid="uid://dkmhv3xkfc7dw" path="res://camera.gd" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=314301198]
+script = ExtResource("1_0xm2m")
+
+[node name="Grid" type="Node2D" parent="." unique_id=594128458]
+script = ExtResource("2_h2yge")
+show_debug = true
+
+[node name="Camera" type="Camera2D" parent="." unique_id=168867484]
+script = ExtResource("3_h2yge")
